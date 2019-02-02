@@ -1,79 +1,84 @@
-@media (max-width:1023px) {
-  h1 {
-    font-size: 36px;
-  }
-  .main img:first-of-type {
-    display: inherit;
-  }
-  .main img {
-    display: none;
-  }
-  .first-part {
-    margin-top: -179px;
-  }
-  .pen {
-    left: 460px;
-  }
-  .collection {
-    display: inherit;
-  }
-  .pose {
-    display: none;
-  }
-  .circle {
-    top: 500px;
-  }
-  .therd-part {
-        margin-top: 500px;
-
-  }
-}
-@media screen and (min-width:1024px) {
-  h1 {
-    text-align: left;
-    font-size: 26px;
-  }
-  .main img:first-of-type {
-    display:none;
-  }
-  .main img {
-    display: inherit;
-      position: absolute;
-      top: 220px;
-      left: 0;
-      width: 100%;
-      display: inherit;
-      height: 630px;
+@media (max-width:1023px)
+{
+    h1 {
+        font-size: 36px;
     }
-  .first-part {
-    margin-top: -90px;
-  }
-  .pen {
-    top: -230px;
-    left: 591px;
-
-  }
-  .second-part {
-    width: 550px;
-    margin-top: -200px;
-    margin-left: 340px;
-  }
-  .collection {
-    display:none;
-  }
-  .pose {
-    display: inherit;
-    position: absolute;
-    width: 100%;
-    height: 560px;
-    top: 1570px;
-    left: 0;
-  }
-  .circle {
-    top: -200px;
-    left: -250px;
-  }
-  .therd-part {
-    padding-top: 500px;
+    .main img:first-of-type {
+        display: inherit;
+    }
+    .main img {
+        display: none;
+    }
+    .first-part {
+        margin-top: -179px;
+    }
+    .pen {
+        left: 460px;
+    }
+    .collection {
+        display: inherit;
+    }
+    .pose {
+        display: none;
+    }
+    .circle {
+        top: 500px;
+    }
+    .therd-part {
+        margin-top: 500px;
+    }
 }
+@media screen and (min-width:1024px)
+{
+    h1 {
+        font-size: 26px;
+
+        text-align: left;
+    }
+    .main img:first-of-type {
+        display: none;
+    }
+    .main img {
+        position: absolute;
+        top: 220px;
+        left: 0;
+
+        display: inherit;
+        display: inherit;
+
+        width: 100%;
+        height: 630px;
+    }
+    .first-part {
+        margin-top: -90px;
+    }
+    .pen {
+        top: -230px;
+        left: 591px;
+    }
+    .second-part {
+        width: 550px;
+        margin-top: -200px;
+        margin-left: 340px;
+    }
+    .collection {
+        display: none;
+    }
+    .pose {
+        position: absolute;
+        top: 1570px;
+        left: 0;
+
+        display: inherit;
+
+        width: 100%;
+        height: 560px;
+    }
+    .circle {
+        top: -200px;
+        left: -250px;
+    }
+    .therd-part {
+        padding-top: 500px;
+    }
 }
